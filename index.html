@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>مینی پروژه فرم لاگین</title>
+</head>
+
+<body>
+    <div id="wholeFormContainer">
+        <div id="fadeLayer">
+            <input id="switchToSignIn" class="switcherRadio" type="radio" name="switcherRadio" checked>
+            <label for="switchToSignIn" class="switcherLabel">Sign In</label>
+            <input id="switchToSignUp" class="switcherRadio" type="radio" name="switcherRadio">
+            <label for="switchToSignUp" class="switcherLabel">Sign Up</label>
+            <div id="sectionsContainer">
+                <div id="signInSection" class="mainSections">
+                    <div class="eachInputGroup">
+                        <label for="user" class="typingInputLabel">Username</label>
+                        <input id="user" type="text" class="typingInput">
+                    </div>
+                    <div class="eachInputGroup">
+                        <label for="pass" class="typingInputLabel">Password</label>
+                        <input id="pass" type="password" class="typingInput" data-type="password">
+                    </div>
+                    <div class="eachInputGroup">
+                        <input id="invisibleCheckbox" type="checkbox" class="check">
+                        <label for="invisibleCheckbox">
+                            <span class="checkboxReplacingIcon"></span>
+                            Keep me Signed in
+                        </label>
+                    </div>
+                    <div class="eachInputGroup">
+                        <input type="submit" class="button" value="Sign In">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </div>
+                <div id="signUpSection" class="mainSections">
+                    <div class="eachInputGroup">
+                        <label for="user" class="typingInputLabel">Username</label>
+                        <input id="user" type="text" class="typingInput">
+                    </div>
+                    <div class="eachInputGroup">
+                        <label for="pass" class="typingInputLabel">Password</label>
+                        <input id="pass" type="password" class="typingInput" data-type="password">
+                    </div>
+                    <div class="eachInputGroup">
+                        <label for="pass" class="typingInputLabel">Repeat Password</label>
+                        <input id="pass" type="password" class="typingInput" data-type="password">
+                    </div>
+                    <div class="eachInputGroup">
+                        <label for="pass" class="typingInputLabel">Email Address</label>
+                        <input id="pass" type="text" class="typingInput">
+                    </div>
+                    <div class="eachInputGroup">
+                        <input type="submit" class="button" value="Sign Up">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <label for="tab-1">Already Member?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="width: 100%; background-color: rgba(256, 256, 256, .6); text-align: center; color: teal; position: fixed; bottom: 0; font-size: 20px; padding: 10px 0;">
+        &copy <a href="https://codepen.io/khadkamhn/pen/ZGvPLo">https://codepen.io/khadkamhn/pen/ZGvPLo</a> 
+    </footer>
+</body>
+</html>
